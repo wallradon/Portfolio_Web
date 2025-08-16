@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Prompt:wght@400;600&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: #FFFBDE; */
+}
+
+body {
+    margin: 0;
+    background-color: #FFFBDE;
+    background: linear-gradient(to bottom, #FFFBDE 0%, #6cbbe3 100%);
+    min-height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    background-color: #6cbbe3;
+}
+
+.grid-container {
+    display: grid;
+    /* background-color:#000000; */
+    background-color:transparent;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    row-gap: 10px;
+    column-gap: 20px;
+    padding: 10px;
+    margin-top: 12vh;
+}
+
+.HeaderBox {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #FFFCFB;
+    border-bottom: 2px solid #94B4C1;
+    text-decoration: none;
+}
+
+.titelbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    width: 30%;
+    height: auto;
+    display: block;
+}
+
+.titelbox>h2 {
+    margin-left: 20px;
+    color: #fdfdfd;
+}
+
+.titelbutton {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-right: 2vw;
+}
+
+.flex-container-p1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.flex-box1 {
+    display: flex;
+    flex-direction: column;
+    color: #0055af;
+    padding-left: 10vh;
+}
+
+.flex-box1 > h1{
+    font-size: 3rem;
+}
+.flex-box1 > h2{
+    font-size: 2rem;
+    opacity: 50%;
+}
+.buttonbox1 {
+    text-align: center;
+    margin-top: 10px;
+    width: 100px;
+    color: #FFFCFB;
+    background: #4682A9;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid #91c8e449;
+    border-radius: 14px;
+}
+
+.flex-container-p2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.imagebox2 {
+    width: 50%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
